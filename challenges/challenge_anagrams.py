@@ -23,7 +23,7 @@ def is_anagram(first_string, second_string):
     first_string = ordenar_palavra(first_string)
     second_string = ordenar_palavra(second_string)
 
-    ## Verificar se as palavras ordenadas  são iguais
+    # Verificar se as palavras ordenadas  são iguais
     for i in range(len(first_string)):
         if first_string[i] != second_string[i]:
             return (
